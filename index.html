@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script>
+      // Capture only in memory and scrub before resources or application startup.
+      (() => { try { if (new URLSearchParams(location.hash.slice(1)).has('sync')) {
+        const fragment = location.hash;
+        history.replaceState(history.state, '', location.pathname + location.search);
+        window.__pmhnpSyncFragment = fragment;
+      }} catch (_) { window.__pmhnpSyncScrubFailed = true; } })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0b6bcb" />
     <meta name="color-scheme" content="light" />
@@ -15,7 +23,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
     <link rel="stylesheet" href="./app.css" />
     <title>PMHNP Board Prep</title>
-    <meta name="pmhnp-version" content="20261107191023" />
+    <meta name="pmhnp-version" content="20261107201544" />
   </head>
   <body>
     <div id="root"></div>
