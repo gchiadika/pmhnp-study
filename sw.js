@@ -1,5 +1,5 @@
 /* PMHNP Board Prep service worker */
-const VERSION = "20261107182821";
+const VERSION = "20261107191023";
 const CACHE = `pmhnp-${VERSION}`;
 const PRECACHE = [
   "./",
@@ -53,6 +53,7 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(req)
         .then((res) => {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
           const copy = res.clone();
           if (res.ok) caches.open(CACHE).then((c) => c.put(req, copy));
           return res;
