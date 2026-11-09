@@ -3,6 +3,13 @@
   "note": "De-identified clinical exposure list for study. No case counts or dates.",
   "drugs": [
     {
+      "id": "trazodone",
+      "generic": "trazodone",
+      "supportive": false,
+      "course": "Atypical antidepressants",
+      "pearl": "Low dose for sleep; warn about orthostasis and rare priapism."
+    },
+    {
       "id": "bupropion",
       "generic": "bupropion",
       "supportive": false,
@@ -15,6 +22,13 @@
       "supportive": false,
       "course": "SSRIs",
       "pearl": "Often started low and titrated; useful across depression, anxiety, PTSD, and OCD."
+    },
+    {
+      "id": "hydroxyzine",
+      "generic": "hydroxyzine",
+      "supportive": false,
+      "course": "Anxiolytics",
+      "pearl": "Non-habit-forming PRN anxiety/itch option; anticholinergic and sedating."
     },
     {
       "id": "mirtazapine",
@@ -31,25 +45,11 @@
       "pearl": "Low dose more sedating; metabolic and orthostasis monitoring needed."
     },
     {
-      "id": "duloxetine",
-      "generic": "duloxetine",
-      "supportive": false,
-      "course": "SNRIs",
-      "pearl": "Also used for pain; check blood pressure and avoid in substantial liver disease."
-    },
-    {
-      "id": "fluoxetine",
-      "generic": "fluoxetine",
+      "id": "escitalopram",
+      "generic": "escitalopram",
       "supportive": false,
       "course": "SSRIs",
-      "pearl": "Long half-life; useful if doses are missed; strong CYP2D6 interactions."
-    },
-    {
-      "id": "hydroxyzine",
-      "generic": "hydroxyzine",
-      "supportive": false,
-      "course": "Anxiolytics",
-      "pearl": "Non-habit-forming PRN anxiety/itch option; anticholinergic and sedating."
+      "pearl": "Cleaner SSRI profile; still watch QTc and hyponatremia in older adults."
     },
     {
       "id": "lamotrigine",
@@ -59,20 +59,6 @@
       "pearl": "Titrate slowly for rash risk; half the dose if combined with valproate."
     },
     {
-      "id": "propranolol",
-      "generic": "propranolol",
-      "supportive": false,
-      "course": "Anxiolytics",
-      "pearl": "Used for performance anxiety or akathisia; avoid in asthma and check pulse."
-    },
-    {
-      "id": "trazodone",
-      "generic": "trazodone",
-      "supportive": false,
-      "course": "Atypical antidepressants",
-      "pearl": "Low dose for sleep; warn about orthostasis and rare priapism."
-    },
-    {
       "id": "buspirone",
       "generic": "buspirone",
       "supportive": false,
@@ -80,39 +66,11 @@
       "pearl": "Scheduled dosing for GAD; not for PRN panic; takes weeks."
     },
     {
-      "id": "desvenlafaxine",
-      "generic": "desvenlafaxine",
-      "supportive": false,
-      "course": "SNRIs",
-      "pearl": "Active metabolite of venlafaxine; watch blood pressure and discontinuation."
-    },
-    {
-      "id": "escitalopram",
-      "generic": "escitalopram",
+      "id": "fluoxetine",
+      "generic": "fluoxetine",
       "supportive": false,
       "course": "SSRIs",
-      "pearl": "Cleaner SSRI profile; still watch QTc and hyponatremia in older adults."
-    },
-    {
-      "id": "valproate",
-      "generic": "divalproex / valproate",
-      "supportive": false,
-      "course": "Mood stabilizers",
-      "pearl": "Clinic often writes divalproex (Depakote), a valproate product for mania. Check LFTs, CBC/platelets, pregnancy risk."
-    },
-    {
-      "id": "gabapentin",
-      "generic": "gabapentin",
-      "supportive": false,
-      "course": "Anxiolytics",
-      "pearl": "Renal clearance; sedating; misuse potential; dose-adjust in kidney disease."
-    },
-    {
-      "id": "lorazepam",
-      "generic": "lorazepam",
-      "supportive": false,
-      "course": "Anxiolytics",
-      "pearl": "LOT benzo: no Phase I oxidation; still risky with opioids and dependence."
+      "pearl": "Long half-life; useful if doses are missed; strong CYP2D6 interactions."
     },
     {
       "id": "melatonin",
@@ -122,29 +80,44 @@
       "pearl": "OTC sleep cue for circadian issues; keep dose modest and timing consistent."
     },
     {
-      "id": "buprenorphine-naloxone",
-      "generic": "buprenorphine naloxone",
+      "id": "desvenlafaxine",
+      "generic": "desvenlafaxine",
       "supportive": false,
-      "course": "Substance use medications",
-      "pearl": "Office-based OUD treatment; assess withdrawal before induction."
+      "course": "SNRIs",
+      "pearl": "Active metabolite of venlafaxine; watch blood pressure and discontinuation."
     },
     {
-      "id": "aripiprazole",
-      "generic": "aripiprazole",
+      "id": "duloxetine",
+      "generic": "duloxetine",
+      "supportive": false,
+      "course": "SNRIs",
+      "pearl": "Also used for pain; check blood pressure and avoid in substantial liver disease."
+    },
+    {
+      "id": "olanzapine",
+      "generic": "olanzapine",
       "supportive": false,
       "course": "Antipsychotics",
-      "pearl": "Partial D2 agonist; akathisia common; lower metabolic risk than some SGAs."
+      "pearl": "Effective but high metabolic risk; monitor weight, glucose, lipids."
     },
     {
-      "id": "amphetamine-salts",
-      "generic": "amphetamine salts",
+      "id": "prazosin",
+      "generic": "prazosin",
       "supportive": false,
-      "course": "ADHD medications",
-      "pearl": "Combination amphetamine salts (Adderall/Adderall XR). Check BP/HR and cardiac history; misuse and diversion risk.",
+      "course": "Anxiolytics",
+      "pearl": "Nightmares/PTSD off-label use; titrate for orthostatic dizziness."
+    },
+    {
+      "id": "valproate",
+      "generic": "divalproex / valproate",
+      "supportive": false,
+      "course": "Mood stabilizers",
+      "pearl": "Clinic often writes divalproex (Depakote), a valproate product for mania. Check LFTs, CBC/platelets, pregnancy risk.",
       "aliases": [
-        "dextroamphetamine-amphetamine",
-        "Adderall",
-        "Adderall XR"
+        "divalproex",
+        "divalproex sodium",
+        "valproic acid",
+        "Depakote"
       ]
     },
     {
@@ -155,60 +128,25 @@
       "pearl": "Blocks opioid reward; also helps alcohol use; need opioid-free window."
     },
     {
-      "id": "ondansetron",
-      "generic": "ondansetron",
-      "supportive": true,
-      "course": "Supportive/medical",
-      "pearl": "Supportive antiemetic; QT caution with other QT-prolonging drugs."
-    },
-    {
-      "id": "prazosin",
-      "generic": "prazosin",
+      "id": "propranolol",
+      "generic": "propranolol",
       "supportive": false,
       "course": "Anxiolytics",
-      "pearl": "Nightmares/PTSD off-label use; titrate for orthostatic dizziness."
+      "pearl": "Used for performance anxiety or akathisia; avoid in asthma and check pulse."
     },
     {
-      "id": "ramelteon",
-      "generic": "ramelteon",
+      "id": "lorazepam",
+      "generic": "lorazepam",
       "supportive": false,
-      "course": "Sleep meds",
-      "pearl": "Melatonin-receptor agonist; not a controlled substance; avoid with fluvoxamine."
+      "course": "Anxiolytics",
+      "pearl": "LOT benzo: no Phase I oxidation; still risky with opioids and dependence."
     },
     {
-      "id": "clonidine",
-      "generic": "clonidine",
+      "id": "gabapentin",
+      "generic": "gabapentin",
       "supportive": false,
-      "course": "ADHD medications",
-      "pearl": "Helps ADHD or opioid withdrawal autonomic symptoms; watch blood pressure."
-    },
-    {
-      "id": "haloperidol",
-      "generic": "haloperidol",
-      "supportive": false,
-      "course": "Antipsychotics",
-      "pearl": "High-potency FGA; EPS risk; useful for acute agitation when appropriate."
-    },
-    {
-      "id": "lisdexamfetamine",
-      "generic": "lisdexamfetamine",
-      "supportive": false,
-      "course": "ADHD medications",
-      "pearl": "Prodrug stimulant; also binge-eating label; still monitor CV vitals."
-    },
-    {
-      "id": "olanzapine",
-      "generic": "olanzapine",
-      "supportive": false,
-      "course": "Antipsychotics",
-      "pearl": "Effective but high metabolic risk; monitor weight, glucose, lipids."
-    },
-    {
-      "id": "paliperidone",
-      "generic": "paliperidone",
-      "supportive": false,
-      "course": "Antipsychotics",
-      "pearl": "Active risperidone metabolite; renal dosing; LAI options exist."
+      "course": "Anxiolytics",
+      "pearl": "Renal clearance; sedating; misuse potential; dose-adjust in kidney disease."
     },
     {
       "id": "risperidone",
@@ -218,39 +156,11 @@
       "pearl": "Prolactin elevation and EPS more likely at higher doses."
     },
     {
-      "id": "topiramate",
-      "generic": "topiramate",
+      "id": "paroxetine",
+      "generic": "paroxetine",
       "supportive": false,
-      "course": "Mood stabilizers",
-      "pearl": "Off-label psych uses include migraine and weight concerns; cognitive slowing and acidosis risk."
-    },
-    {
-      "id": "ziprasidone",
-      "generic": "ziprasidone",
-      "supportive": false,
-      "course": "Antipsychotics",
-      "pearl": "Take with food; more QT caution; lower metabolic burden."
-    },
-    {
-      "id": "acetaminophen",
-      "generic": "acetaminophen",
-      "supportive": true,
-      "course": "Supportive/medical",
-      "pearl": "Supportive pain/fever medicine; liver-toxicity risk with overdose or heavy alcohol use."
-    },
-    {
-      "id": "atomoxetine",
-      "generic": "atomoxetine",
-      "supportive": false,
-      "course": "ADHD medications",
-      "pearl": "Non-stimulant ADHD option; boxed warning for suicidal thinking in youth; watch BP/HR."
-    },
-    {
-      "id": "benztropine",
-      "generic": "benztropine",
-      "supportive": false,
-      "course": "Antipsychotics",
-      "pearl": "Treats dystonia/parkinsonism from antipsychotics; anticholinergic burden."
+      "course": "SSRIs",
+      "pearl": "More anticholinergic and CYP2D6 inhibition; notable discontinuation symptoms."
     },
     {
       "id": "citalopram",
@@ -260,11 +170,230 @@
       "pearl": "Dose-related QT risk; follow age and interaction dose caps."
     },
     {
+      "id": "amphetamine-salts",
+      "generic": "amphetamine salts",
+      "supportive": false,
+      "course": "ADHD medications",
+      "pearl": "Combination amphetamine salts (Adderall/Adderall XR). Check BP/HR and cardiac history; misuse and diversion risk.",
+      "aliases": [
+        "dextroamphetamine-amphetamine",
+        "Adderall",
+        "Adderall XR",
+        "mixed amphetamine salts"
+      ]
+    },
+    {
+      "id": "ramelteon",
+      "generic": "ramelteon",
+      "supportive": false,
+      "course": "Sleep meds",
+      "pearl": "Melatonin-receptor agonist; not a controlled substance; avoid with fluvoxamine."
+    },
+    {
+      "id": "acamprosate",
+      "generic": "acamprosate",
+      "supportive": false,
+      "course": "Substance use medications",
+      "pearl": "Alcohol use disorder maintenance after detox; common GI upset; adjust for kidney disease.",
+      "aliases": [
+        "Campral"
+      ]
+    },
+    {
+      "id": "aripiprazole",
+      "generic": "aripiprazole",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "Partial D2 agonist; akathisia common; lower metabolic risk than some SGAs."
+    },
+    {
+      "id": "buprenorphine-naloxone",
+      "generic": "buprenorphine naloxone",
+      "supportive": false,
+      "course": "Substance use medications",
+      "pearl": "Office-based OUD treatment; assess withdrawal before induction.",
+      "aliases": [
+        "Suboxone",
+        "buprenorphine/naloxone",
+        "Zubsolv",
+        "Bunavail"
+      ]
+    },
+    {
+      "id": "naloxone",
+      "generic": "naloxone",
+      "supportive": true,
+      "course": "Supportive/medical",
+      "pearl": "Opioid overdose reversal; teach take-home use for overdose risk."
+    },
+    {
+      "id": "atomoxetine",
+      "generic": "atomoxetine",
+      "supportive": false,
+      "course": "ADHD medications",
+      "pearl": "Non-stimulant ADHD option; boxed warning for suicidal thinking in youth; watch BP/HR."
+    },
+    {
+      "id": "donepezil",
+      "generic": "donepezil",
+      "supportive": false,
+      "course": "Dementia medications",
+      "pearl": "Cholinesterase inhibitor for Alzheimer symptoms; watch bradycardia and GI effects.",
+      "aliases": [
+        "Aricept"
+      ]
+    },
+    {
+      "id": "lisdexamfetamine",
+      "generic": "lisdexamfetamine",
+      "supportive": false,
+      "course": "ADHD medications",
+      "pearl": "Prodrug stimulant; also binge-eating label; still monitor CV vitals."
+    },
+    {
+      "id": "ondansetron",
+      "generic": "ondansetron",
+      "supportive": true,
+      "course": "Supportive/medical",
+      "pearl": "Supportive antiemetic; QT caution with other QT-prolonging drugs."
+    },
+    {
+      "id": "paliperidone",
+      "generic": "paliperidone",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "Active risperidone metabolite; renal dosing; LAI options exist."
+    },
+    {
+      "id": "buprenorphine",
+      "generic": "buprenorphine",
+      "supportive": false,
+      "course": "Substance use medications",
+      "pearl": "Long-acting injectable (Sublocade) and other mono-buprenorphine products for OUD or pain-keep distinct from buprenorphine-naloxone (Suboxone).",
+      "aliases": [
+        "Sublocade",
+        "Subutex",
+        "Brixadi",
+        "Butrans",
+        "Belbuca"
+      ]
+    },
+    {
+      "id": "chlordiazepoxide",
+      "generic": "chlordiazepoxide",
+      "supportive": false,
+      "course": "Anxiolytics",
+      "pearl": "Long-acting benzo often used in alcohol withdrawal protocols; still sedating and dependence-forming.",
+      "aliases": [
+        "Librium"
+      ]
+    },
+    {
+      "id": "clonidine",
+      "generic": "clonidine",
+      "supportive": false,
+      "course": "ADHD medications",
+      "pearl": "Helps ADHD or opioid withdrawal autonomic symptoms; watch blood pressure."
+    },
+    {
       "id": "doxepin",
       "generic": "doxepin",
       "supportive": false,
       "course": "Sleep meds",
       "pearl": "Low-dose Silenor for sleep; antidepressant doses are TCA territory."
+    },
+    {
+      "id": "haloperidol",
+      "generic": "haloperidol",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "High-potency FGA; EPS risk; useful for acute agitation when appropriate."
+    },
+    {
+      "id": "lurasidone",
+      "generic": "lurasidone",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "Take with food; bipolar depression and schizophrenia; metabolic friendliness."
+    },
+    {
+      "id": "thiamine",
+      "generic": "thiamine",
+      "supportive": true,
+      "course": "Supportive/medical",
+      "pearl": "Vitamin B1 used to prevent or treat Wernicke encephalopathy in alcohol use; give before glucose when indicated.",
+      "aliases": [
+        "vitamin B1",
+        "Vitamin B1"
+      ]
+    },
+    {
+      "id": "topiramate",
+      "generic": "topiramate",
+      "supportive": false,
+      "course": "Mood stabilizers",
+      "pearl": "Off-label psych uses include migraine and weight concerns; cognitive slowing and acidosis risk."
+    },
+    {
+      "id": "venlafaxine",
+      "generic": "venlafaxine",
+      "supportive": false,
+      "course": "SNRIs",
+      "pearl": "Dose-related NE effect and BP rise; taper carefully."
+    },
+    {
+      "id": "acetaminophen",
+      "generic": "acetaminophen",
+      "supportive": true,
+      "course": "Supportive/medical",
+      "pearl": "Supportive pain/fever medicine; liver-toxicity risk with overdose or heavy alcohol use."
+    },
+    {
+      "id": "amitriptyline",
+      "generic": "amitriptyline",
+      "supportive": false,
+      "course": "TCAs",
+      "pearl": "TCA with strong anticholinergic effects; overdose is cardiotoxic-keep out of reach and screen suicidality.",
+      "aliases": [
+        "Elavil"
+      ]
+    },
+    {
+      "id": "benztropine",
+      "generic": "benztropine",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "Treats dystonia/parkinsonism from antipsychotics; anticholinergic burden."
+    },
+    {
+      "id": "brexpiprazole",
+      "generic": "brexpiprazole",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "SGA used for schizophrenia and as antidepressant adjunct; also Alzheimer agitation label with mortality boxed warning.",
+      "aliases": [
+        "Rexulti"
+      ]
+    },
+    {
+      "id": "cariprazine",
+      "generic": "cariprazine",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "D3-preferring partial agonist for schizophrenia and bipolar; akathisia and restlessness are common.",
+      "aliases": [
+        "Vraylar"
+      ]
+    },
+    {
+      "id": "clonazepam",
+      "generic": "clonazepam",
+      "supportive": false,
+      "course": "Anxiolytics",
+      "pearl": "Long-acting benzo for panic/seizure indications; high dependence risk and falls in older adults.",
+      "aliases": [
+        "Klonopin"
+      ]
     },
     {
       "id": "guanfacine",
@@ -285,35 +414,27 @@
       "generic": "loperamide",
       "supportive": true,
       "course": "Supportive/medical",
-      "pearl": "Supportive antidiarrheal; high doses can cause cardiac toxicity\u2014keep labeled dosing."
+      "pearl": "Supportive antidiarrheal; high doses can cause cardiac toxicity-keep labeled dosing."
     },
     {
-      "id": "lurasidone",
-      "generic": "lurasidone",
+      "id": "ropinirole",
+      "generic": "ropinirole",
+      "supportive": false,
+      "course": "Supportive/medical",
+      "pearl": "Dopamine agonist for restless legs (also called RLS) and Parkinson disease (also called PD); counsel on impulse-control behaviors and sleepiness.",
+      "aliases": [
+        "Requip"
+      ]
+    },
+    {
+      "id": "valbenazine",
+      "generic": "valbenazine",
       "supportive": false,
       "course": "Antipsychotics",
-      "pearl": "Take with food; bipolar depression and schizophrenia; metabolic friendliness."
-    },
-    {
-      "id": "naloxone",
-      "generic": "naloxone",
-      "supportive": true,
-      "course": "Supportive/medical",
-      "pearl": "Opioid overdose reversal; teach take-home use for overdose risk."
-    },
-    {
-      "id": "paroxetine",
-      "generic": "paroxetine",
-      "supportive": false,
-      "course": "SSRIs",
-      "pearl": "More anticholinergic and CYP2D6 inhibition; notable discontinuation symptoms."
-    },
-    {
-      "id": "venlafaxine",
-      "generic": "venlafaxine",
-      "supportive": false,
-      "course": "SNRIs",
-      "pearl": "Dose-related NE effect and BP rise; taper carefully."
+      "pearl": "VMAT2 inhibitor for tardive dyskinesia; watch QT and depression/suicidality labeling.",
+      "aliases": [
+        "Ingrezza"
+      ]
     },
     {
       "id": "vilazodone",
@@ -328,6 +449,24 @@
       "supportive": false,
       "course": "Serotonin modulators",
       "pearl": "Multimodal serotonergic antidepressant; nausea common early."
+    },
+    {
+      "id": "ziprasidone",
+      "generic": "ziprasidone",
+      "supportive": false,
+      "course": "Antipsychotics",
+      "pearl": "Take with food; more QT caution; lower metabolic burden."
+    },
+    {
+      "id": "zolpidem",
+      "generic": "zolpidem",
+      "supportive": false,
+      "course": "Sleep meds",
+      "pearl": "Z-drug hypnotic; boxed warning for complex sleep behaviors; keep lowest effective dose.",
+      "aliases": [
+        "Ambien",
+        "Ambien CR"
+      ]
     }
   ]
 }
