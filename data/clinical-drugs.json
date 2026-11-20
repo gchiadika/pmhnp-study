@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-20",
   "note": "De-identified clinical exposure list for study. No case counts or dates.",
   "drugs": [
     {
@@ -117,7 +117,20 @@
         "divalproex",
         "divalproex sodium",
         "valproic acid",
-        "Depakote"
+        "Depakote",
+        "Depakene",
+        "Depakote ER"
+      ]
+    },
+    {
+      "id": "oxcarbazepine",
+      "generic": "oxcarbazepine",
+      "supportive": false,
+      "course": "Mood stabilizers",
+      "pearl": "No FDA bipolar indication. Watch low sodium; rash risk and some cross-sensitivity with carbamazepine. HLA-B*1502 caution also applies in practice when choosing this after a carbamazepine rash concern.",
+      "aliases": [
+        "Trileptal",
+        "Oxtellar XR"
       ]
     },
     {
@@ -170,6 +183,17 @@
       "pearl": "Dose-related QT risk; follow age and interaction dose caps."
     },
     {
+      "id": "fluvoxamine",
+      "generic": "fluvoxamine",
+      "supportive": false,
+      "course": "SSRIs",
+      "pearl": "Often used for OCD; strong CYP1A2 and CYP2C19 inhibitor. Do not combine with ramelteon (Fluvoxamine raises ramelteon levels).",
+      "aliases": [
+        "Luvox",
+        "Luvox CR"
+      ]
+    },
+    {
       "id": "amphetamine-salts",
       "generic": "amphetamine salts",
       "supportive": false,
@@ -179,7 +203,8 @@
         "dextroamphetamine-amphetamine",
         "Adderall",
         "Adderall XR",
-        "mixed amphetamine salts"
+        "mixed amphetamine salts",
+        "dextroamphetamine amphetamine"
       ]
     },
     {
