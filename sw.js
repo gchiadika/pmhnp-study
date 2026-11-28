@@ -1,5 +1,5 @@
 /* PMHNP Board Prep service worker */
-const VERSION = "20261128005109";
+const VERSION = "20261128010830";
 const CACHE = `pmhnp-${VERSION}`;
 const PRECACHE = [
   "./",
